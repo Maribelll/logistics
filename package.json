@@ -9,7 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "eslint": "8.35.0",
+    "@next-core/babel-preset-next": "^0.9.16",
+    "eslint": "^8.35.0",
     "eslint-config-next": "13.2.3",
     "next": "13.2.3",
     "react": "18.2.0",
