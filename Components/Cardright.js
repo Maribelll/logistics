@@ -8,7 +8,7 @@ export function Cardright() {
     <div
       data-aos="fade-up"
       data-aos-duration="1000"
-      className={styles.cardleft}
+      className={styles.cardright}
     >
       <div style={{ maxWidth: "430px" }} className={styles.card_text}>
         <h3>Full truckload and freight services</h3>
