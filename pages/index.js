@@ -10,6 +10,7 @@ import arrow from "/public/arrow-circle.svg";
 import icon from "/public/hero-graphic.svg";
 import { Cardleft } from "@/Components/Cardleft";
 import { Cardright } from "@/Components/Cardright";
+import { Navbar } from "@/Components/Navbar";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
     >
       <div className="main_container">
         <div className={styles.mainscreen}>
+          <Navbar />
           <div className={styles.main}>
             <div className="mainscreen_svg">
               <Image src={icon}></Image>
