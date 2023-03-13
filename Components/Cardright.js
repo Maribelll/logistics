@@ -5,11 +5,7 @@ import styles from "../styles/card.module.scss";
 
 export function Cardright() {
   return (
-    <div
-      data-aos="fade-up"
-      data-aos-duration="1000"
-      className={styles.cardright}
-    >
+    <div className={styles.cardright}>
       <div style={{ maxWidth: "430px" }} className={styles.card_text}>
         <h3>Full truckload and freight services</h3>
         <p>

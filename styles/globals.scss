@@ -44,9 +44,10 @@ a {
   line-height: 16px;
   letter-spacing: 0.15em;
   text-align: center;
+  transition: ease 0.4s;
   &:hover {
-    background: #e1631b;
-    transition: ease-in-out 0.2s;
+    background: #b04f18;
+    transition: ease-in-out 0.4s;
   }
 }
 .button_long {
@@ -64,9 +65,10 @@ a {
   line-height: 16px;
   letter-spacing: 0.15em;
   text-align: center;
+  transition: ease 0.4s;
   &:hover {
-    background: #e1631b;
-    transition: ease-in-out 0.2s;
+    background: #b04f18;
+    transition: ease-in-out 0.4s;
   }
 }
 span {
