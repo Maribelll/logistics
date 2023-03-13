@@ -187,7 +187,14 @@ li {
     margin-top: 40px;
   }
 }
-
+@media (max-width: 500px) {
+  .button_and_link {
+    align-items: flex-start;
+    .button_shot {
+      width: 273px;
+    }
+  }
+}
 @media (max-width: 460px) {
   h1 {
     font-size: 42px;
