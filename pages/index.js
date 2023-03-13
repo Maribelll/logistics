@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.scss";
 import Layout from "@/Components/Layout";
 import Link from "next/link";
 import banner from "@/public/Hero.jpg";
+import banner2 from "@/public/Hero2.png";
 import arrow from "/public/arrow-circle.svg";
 
 export default function Home() {
@@ -48,12 +49,10 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.main_photo}>
-              <Image
-                src={banner}
-                alt="Fitness equipment in a room"
-                width={709}
-                height={760}
-              />
+              <Image src={banner} alt="banner" width={709} height={760} />
+            </div>
+            <div className={styles.main_photo2}>
+              <Image src={banner2} alt="banner" width={320} height={234} />
             </div>
           </div>
         </div>
