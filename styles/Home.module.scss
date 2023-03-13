@@ -1,5 +1,6 @@
 .mainscreen {
   background-color: #283128;
+
   .main {
     position: relative;
     justify-content: space-between;
@@ -9,7 +10,13 @@
     margin: 0 auto;
 
     .main_photo {
+      position: relative;
+      height: 760px;
       margin-bottom: -1px;
+      z-index: 1;
+      width: 709px;
+      background-image: url("../public/Hero.jpg");
+      background-size: cover;
     }
     .main_photo2 {
       display: none;
@@ -52,7 +59,7 @@
     }
   }
 }
-@media (max-width: 1219px) {
+@media (max-width: 1000px) {
   .mainscreen {
     .main {
       padding-left: 0;
@@ -68,6 +75,7 @@
         .main_text_all {
           .header1 {
             margin-bottom: 7px;
+            padding-top: 120px;
           }
           .main_text_buttons {
             .link {

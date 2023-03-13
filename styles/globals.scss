@@ -160,12 +160,22 @@ li {
 }
 .mainscreen_svg {
   position: absolute;
+  z-index: 2;
   left: 55%;
   transform: translate(-55%, -82%);
   top: 82%;
   border-radius: 0px;
 
   border-radius: 0px;
+}
+.logo {
+  height: 44.68257522583008px;
+  width: 180.0003204345703px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  position: absolute;
+  margin-left: 80px;
 }
 @media (max-width: 1219px) {
   .mainscreen_svg {
