@@ -92,6 +92,25 @@ span {
   justify-content: space-between;
   padding: 0 21px 0 26px;
 }
+.button_and_link {
+  display: flex;
+  max-width: 400px;
+  justify-content: flex-start;
+  align-items: center;
+  a {
+    margin-left: 37px;
+    border-bottom: #283128 solid 1px;
+    display: inline-block;
+    position: relative;
+    color: #283128;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.15em;
+  }
+}
 h1 {
   font-size: 64px;
   font-style: normal;

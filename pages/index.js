@@ -8,6 +8,8 @@ import banner from "@/public/Hero.jpg";
 import banner2 from "@/public/Hero2.png";
 import arrow from "/public/arrow-circle.svg";
 import icon from "/public/hero-graphic.svg";
+import { Cardleft } from "@/Components/Cardleft";
+import { Cardright } from "@/Components/Cardright";
 
 export default function Home() {
   return (
@@ -60,6 +62,8 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <Cardleft />
+        <Cardright />
       </div>
     </Layout>
   );
