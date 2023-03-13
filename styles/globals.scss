@@ -137,7 +137,20 @@ section {
 li {
   list-style-type: none;
 }
+.mainscreen_svg {
+  position: absolute;
+  left: 55%;
+  transform: translate(-55%, -82%);
+  top: 82%;
+  border-radius: 0px;
 
+  border-radius: 0px;
+}
+@media (max-width: 1219px) {
+  .mainscreen_svg {
+    display: none;
+  }
+}
 @media (max-width: 750px) {
   section {
     margin-top: 40px;

@@ -1,6 +1,7 @@
 .mainscreen {
   background-color: #283128;
   .main {
+    position: relative;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -56,7 +57,9 @@
     .main {
       padding-left: 0;
       flex-direction: column;
-
+      .mainscreen_svg {
+        display: none;
+      }
       .main_text {
         padding-left: 20px;
         padding-right: 20px;

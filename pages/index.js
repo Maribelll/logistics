@@ -7,6 +7,7 @@ import Link from "next/link";
 import banner from "@/public/Hero.jpg";
 import banner2 from "@/public/Hero2.png";
 import arrow from "/public/arrow-circle.svg";
+import icon from "/public/hero-graphic.svg";
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
       <div className="main_container">
         <div className={styles.mainscreen}>
           <div className={styles.main}>
+            <div className="mainscreen_svg">
+              <Image src={icon}></Image>
+            </div>
             <div className={styles.main_text}>
               <div className={styles.main_text_all}>
                 <h1 className={styles.header1}>
