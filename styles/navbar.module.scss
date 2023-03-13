@@ -5,10 +5,8 @@
   display: flex;
   align-items: center;
   right: 60px;
-  color: #ffffff;
-  // .logo1 {
-  //   margin-right: 45%;
-  // }
+  color: #f4f1e6;
+
   .menu {
     .servbut {
       &:hover {
@@ -20,21 +18,31 @@
           animation: show 0.8s 1;
           animation-fill-mode: forwards;
           transition: 1s;
-          background: #ffffff;
+          background: #f4f1e6;
           box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.1);
           border-radius: 3px;
           position: absolute;
           z-index: 10;
           display: flex;
           flex-direction: row;
-          top: 30px;
+          top: 61px;
           left: 0px;
           padding-top: 30px;
           .navserv1 {
             padding-left: 27px;
             padding-bottom: 27px;
-            a {
-              padding-bottom: 17px;
+
+            li {
+              transition: ease 0.4s;
+              font-size: 13px;
+              font-weight: 400;
+              line-height: 15px;
+              letter-spacing: 0.15em;
+
+              &:hover {
+                color: #b04f18;
+                transition: ease 0.4s;
+              }
             }
           }
           .navserv2 {
@@ -63,13 +71,13 @@
         .navigulrates {
           display: block;
           opacity: 0;
-          width: 152px;
-          background: #ffffff;
+          width: 197px;
+          background: #f4f1e6;
           box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.1);
           border-radius: 5px;
           position: absolute;
           z-index: 10;
-          top: 30px;
+          top: 61px;
           left: 130px;
           animation: show 1.2s 1;
           animation-fill-mode: forwards;
@@ -87,17 +95,30 @@
           .navrates {
             padding: 16px 31px 16px 27px;
             li {
+              font-size: 13px;
+              font-weight: 400;
+              line-height: 15px;
+              letter-spacing: 0.15em;
               line-height: 34px;
               letter-spacing: 0em;
               text-align: left;
+              transition: ease 0.4s;
+              &:hover {
+                color: #b04f18;
+                transition: ease 0.4s;
+              }
             }
           }
         }
       }
     }
     .orange {
-      color: white;
+      color: #f4f1e6;
       transition: ease-in-out 0.4s;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 15px;
+      letter-spacing: 0.15em;
       cursor: pointer;
       &:hover {
         color: #e1621b;
@@ -119,6 +140,9 @@
 
       Link {
         transition: ease-in-out 0.4s;
+
+        text-align: left;
+
         &:hover {
           color: #e1621b;
           transition: ease-in-out 0.4s;

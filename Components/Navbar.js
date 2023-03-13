@@ -25,13 +25,15 @@ export function Navbar() {
 
             <div className={styles.navigul}>
               <div className={styles.navserv1}>
-                <Link style={{ paddingBottom: "15px" }} href={"/"}>
-                  OVERVIEW
+                <Link href={"/"}>
+                  <li style={{ paddingBottom: "15px" }}>OVERVIEW</li>
                 </Link>
-                <Link style={{ paddingBottom: "15px" }} href={"/"}>
-                  LTL
+                <Link href={"/"}>
+                  <li style={{ paddingBottom: "15px" }}>LTL</li>
                 </Link>
-                <Link href={"/"}>TRUCKLOAD</Link>
+                <Link href={"/"}>
+                  <li style={{ paddingBottom: "15px" }}>TRUCKLOAD</li>
+                </Link>
               </div>
             </div>
           </a>
@@ -49,8 +51,12 @@ export function Navbar() {
             </span>
             <div className={styles.navigulrates}>
               <div className={styles.navrates}>
-                <Link href={"/"}>LTL RATE</Link>
-                <Link href={"/"}>TRUCKLOAD RATE</Link>
+                <Link href={"/"}>
+                  <li>LTL RATE</li>
+                </Link>
+                <Link href={"/"}>
+                  <li>TRUCKLOAD RATE</li>
+                </Link>
               </div>
             </div>
           </a>
