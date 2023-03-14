@@ -14,12 +14,7 @@ import { Logo } from "@/Components/Logo";
 
 export default function Home() {
   return (
-    <Layout
-      title="About - Artelle Creative"
-      keywords="web development, web design, web development in florida, web design in Florida, websites, branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
-    good websites, affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
-      description="Artelle Creative is a design &amp; development studio building websites, designing logo &amp; brand identities, and marketing materials."
-    >
+    <Layout title="AAS Logistic" keywords="" description="">
       <div className="main_container">
         <div className={styles.mainscreen}>
           <div className={styles.main}>
