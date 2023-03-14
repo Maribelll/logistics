@@ -23,14 +23,17 @@ export function Footer() {
             <Image src={arrow}></Image>
           </button>
         </div>
-        <hr className={styles.line1}></hr>
+        <hr id={styles.line1} className={styles.line1}></hr>
         <div className={styles.image}>
           <Image src={logo}></Image>
         </div>
         <div className={styles.info}>
           <div className={styles.part1}>
             <h5>Nationwide freight shipping made easy.</h5>
-            <p> &copy; Copyright AAS Logistics. All Rights Reserved.</p>
+            <p id={styles.copy}>
+              {" "}
+              &copy; Copyright AAS Logistics. All Rights Reserved.
+            </p>
           </div>
           <div className={styles.part2}>
             <div className={styles.col1}>
@@ -77,6 +80,10 @@ export function Footer() {
           <Link href={"/"}>Terms & Conditions</Link>
           <Link href={"/"}>Our FMCSA Profile</Link>
         </div>
+        <p id={styles.copy2}>
+          {" "}
+          &copy; Copyright AAS Logistics. All Rights Reserved.
+        </p>
       </div>
     </div>
   );

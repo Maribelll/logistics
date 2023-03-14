@@ -212,6 +212,22 @@ li {
     }
   }
 }
+@media (max-width: 1100px) {
+  .button_grey {
+    height: 63px;
+    width: 276px;
+    left: 22px;
+    top: 119px;
+    border-radius: 0px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    padding: 0 17px 0 26px;
+    align-self: start;
+  }
+}
 @media (max-width: 750px) {
   section {
     margin-top: 40px;
