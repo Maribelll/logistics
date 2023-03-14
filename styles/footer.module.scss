@@ -105,6 +105,9 @@
     #line1 {
       display: none;
     }
+    .line1 {
+      width: auto;
+    }
     .image {
       margin-top: 34px;
     }
@@ -134,6 +137,7 @@
       }
       .part2 {
         flex-direction: column;
+        width: auto;
 
         .col1,
         .col2,
