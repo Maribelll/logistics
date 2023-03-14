@@ -7,6 +7,9 @@
   #copy2 {
     display: none;
   }
+  #copy {
+    font-size: 14px;
+  }
   .button_double {
     padding: 65px 0 63px 0;
     display: flex;
@@ -127,6 +130,7 @@
           font-weight: 700;
           line-height: 19px;
           letter-spacing: -0.04em;
+          margin-bottom: 12px;
         }
         p {
           color: #979997;
