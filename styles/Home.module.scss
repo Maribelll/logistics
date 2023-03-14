@@ -12,7 +12,7 @@
     .main_photo {
       position: relative;
       height: 760px;
-      margin-bottom: -1px;
+      margin-bottom: 1px;
       z-index: 1;
       width: 709px;
       background-image: url("../public/Hero.jpg");
@@ -28,7 +28,7 @@
       padding-left: 80px;
 
       .main_text_all {
-        max-width: 480px;
+        max-width: 490px;
         p {
           max-width: 480px;
         }
@@ -42,7 +42,6 @@
           }
         }
         .header1 {
-          font-size: 51px !important;
           line-height: 107.44%;
           margin-bottom: 57px;
           margin-top: 0;
@@ -103,6 +102,9 @@
         margin-left: 0px;
         .header1 {
           max-width: 300px;
+        }
+        #h1 {
+          font-size: 39px;
         }
       }
     }

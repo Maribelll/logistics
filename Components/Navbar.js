@@ -8,7 +8,7 @@ export function Navbar() {
   return (
     <div className={styles.navbar}>
       <div className={styles.menu}>
-        <Link href={"/"} className={styles.servbut}>
+        <Link href={"/services"} className={styles.servbut}>
           <span className={styles.orange}>SERVICES</span>
           <span
             style={{

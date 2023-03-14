@@ -25,7 +25,7 @@ export default function Home() {
             </div>
             <div className={styles.main_text}>
               <div className={styles.main_text_all}>
-                <h1 className={styles.header1}>
+                <h1 id="h1" className={styles.header1}>
                   Nationwide
                   <br />
                   <span>freight shipping</span>
