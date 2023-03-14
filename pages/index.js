@@ -11,6 +11,7 @@ import { Cardleft } from "@/Components/Cardleft";
 import { Cardright } from "@/Components/Cardright";
 import { Navbar } from "@/Components/Navbar";
 import { Logo } from "@/Components/Logo";
+import { Footer } from "@/Components/Footer";
 
 export default function Home() {
   return (
@@ -62,6 +63,7 @@ export default function Home() {
         </div>
         <Cardleft />
         <Cardright />
+        <Footer />
       </div>
     </Layout>
   );
